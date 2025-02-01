@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <title>CyberSec Club Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="/" class="logo">CyberSec Club</a>
+        <button class="hamburger" aria-label="Toggle menu">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="nav-links">
+          <a href="/" aria-current="page">Blog</a>
+          <a href="/about.html">About</a>
+          <a href="/events.html">Events</a>
+          <a href="/contact.html">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <i class="bi bi-sun-fill"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+      <div class="header">
+        <h1>Cybersecurity Club Blog</h1>
+        <p>Latest insights, tutorials, and updates from our security experts</p>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Blog Card 1 -->
+        <a href="/posts/zero-trust-architecture.html" class="blog-card">
+          <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Cybersecurity" class="card-image">
+          <div class="card-content">
+            <span class="card-tag">Network Security</span>
+            <h2 class="card-title">Understanding Zero Trust Architecture</h2>
+            <p class="card-excerpt">Explore the principles of Zero Trust and why it's becoming the new standard for network security.</p>
+            <div class="card-footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/150?img=1" alt="Author" class="author-avatar">
+                <span class="author-name">Alex Chen</span>
+              </div>
+              <span class="post-date">Mar 15, 2024</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Blog Card 2 -->
+        <a href="/posts/xss-vulnerabilities.html" class="blog-card">
+          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" alt="Code Security" class="card-image">
+          <div class="card-content">
+            <span class="card-tag">Web Security</span>
+            <h2 class="card-title">Common XSS Vulnerabilities</h2>
+            <p class="card-excerpt">Learn how to identify and prevent cross-site scripting attacks in web applications.</p>
+            <div class="card-footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/150?img=2" alt="Author" class="author-avatar">
+                <span class="author-name">Sarah Wilson</span>
+              </div>
+              <span class="post-date">Mar 12, 2024</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Blog Card 3 -->
+        <a href="/posts/blockchain-security.html" class="blog-card">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31" alt="Blockchain" class="card-image">
+          <div class="card-content">
+            <span class="card-tag">Blockchain</span>
+            <h2 class="card-title">Blockchain Security Fundamentals</h2>
+            <p class="card-excerpt">Diving deep into the security aspects of blockchain technology and cryptocurrency systems.</p>
+            <div class="card-footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/150?img=3" alt="Author" class="author-avatar">
+                <span class="author-name">Mike Johnson</span>
+              </div>
+              <span class="post-date">Mar 10, 2024</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Blog Card 4 -->
+        <a href="/posts/password-security.html" class="blog-card">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3" alt="Password Security" class="card-image">
+          <div class="card-content">
+            <span class="card-tag">Authentication</span>
+            <h2 class="card-title">Modern Password Security</h2>
+            <p class="card-excerpt">Best practices for implementing secure password policies and modern authentication methods.</p>
+            <div class="card-footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/150?img=4" alt="Author" class="author-avatar">
+                <span class="author-name">Emma Davis</span>
+              </div>
+              <span class="post-date">Mar 8, 2024</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
